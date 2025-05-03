@@ -1,0 +1,22 @@
+.list {
+  list-style-type: none;
+  font-size: 22px;
+  margin: 0;
+  display: flex;
+}
+.list span {
+  color: var(--primary);
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.list .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+
+}
+.list svg {
+  width: 30px;
+  height: 30px;
+  color: var(--primary);
+}

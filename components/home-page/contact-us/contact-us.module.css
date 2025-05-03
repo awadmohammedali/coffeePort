@@ -1,0 +1,26 @@
+.contactUs {
+  background: var(--background-color);
+  padding: 80px 0;
+  text-align: start;
+}
+
+.contactUs h2 {
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: bolder;
+
+}
+
+.contactUs svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: var(--primary);
+}
+.contactUs a {
+  color: var(--primary);
+}
+
+.contactUs li {
+  margin-bottom: 10px;
+}

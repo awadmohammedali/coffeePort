@@ -1,0 +1,31 @@
+.mission {
+  background: url("/green-coffee-farm.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  color: white;
+}
+
+.mission h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  margin-bottom: 75px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* tablet L  */
+@media (max-width: 1199px) {
+}
+
+/* tablet S  */
+@media (max-width: 991px) {
+}
+
+/* mobile  */
+@media (max-width: 767px) {
+  .mission h1 {
+    font-size: 40px;
+  }
+  .mission p {
+    font-size: 16px;
+  }
+}
