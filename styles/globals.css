@@ -1,11 +1,10 @@
 :root {
   --primary: #c6a158;
   --secondary: #a1bcd4;
-  --background:#ddd4c5;
-  --dark-color:#292724;
-  --body-color:#494c52;
-  --section-dark-color:#ddd4c5;
-  
+  --background: #ddd4c5;
+  --dark-color: #292724;
+  --body-color: #494c52;
+  --section-dark-color: #ddd4c5;
 }
 
 html,
@@ -17,7 +16,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -45,7 +44,7 @@ a {
   text-align: center;
   font-size: 20px;
   padding: 10px 25px;
-  font-weight: 500 ;
+  font-weight: 500;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 .customButtonPrimary:hover {
@@ -59,7 +58,7 @@ a {
   text-align: center;
   font-size: 20px;
   padding: 10px 25px;
-  font-weight: 500 ;
+  font-weight: 500;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -90,4 +89,32 @@ a {
 
 .pulse {
   animation: pulse 1.2s infinite;
+}
+
+@media (max-width: 1199px) {
+  .ersha-logo {
+    width: 400px;
+    margin-left: 10px;
+  }
+
+  .the-captin-logo {
+    width: 100px;
+    margin-left: 10px;
+  }
+}
+
+/* tablet S  */
+@media (max-width: 991px) {
+}
+
+/* mobile  */
+@media (max-width: 767px) {
+  .ersha-logo {
+    width: 330px;
+  }
+
+  .the-captin-logo {
+    width: 100px;
+
+  }
 }

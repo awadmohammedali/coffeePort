@@ -20,19 +20,10 @@
   font-size: 24px;
 }
 
-.image {
-  height: 180px;
-  width: 55%;
-  position: relative;
-}
-
 /* tablet L  */
 @media (max-width: 1199px) {
   .product {
     margin-bottom: 20px;
-  }
-  .image {
-    height: 160px;
   }
 }
 
@@ -44,8 +35,5 @@
 @media (max-width: 767px) {
   .product {
     margin-bottom: 20px;
-  }
-  .image {
-    height: 120px;
   }
 }
